@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CreateEngine", "CreateEngine.vcxproj", "{135A88BA-F1D6-485B-B2EC-4CC6CF2AB1D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ソリューション項目", "ソリューション項目", "{28F29392-8E18-4B5B-A29F-F5D9C4185800}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DirectXTex", "externals\DirectXTex\DirectXTex_Desktop_2022_Win10.vcxproj", "{371B9FA9-4C90-4AC6-A123-ACED756D6C77}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Profile|x64 = Profile|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{135A88BA-F1D6-485B-B2EC-4CC6CF2AB1D5}.Debug|x64.ActiveCfg = Debug|x64
+		{135A88BA-F1D6-485B-B2EC-4CC6CF2AB1D5}.Debug|x64.Build.0 = Debug|x64
+		{135A88BA-F1D6-485B-B2EC-4CC6CF2AB1D5}.Profile|x64.ActiveCfg = Release|x64
+		{135A88BA-F1D6-485B-B2EC-4CC6CF2AB1D5}.Profile|x64.Build.0 = Release|x64
+		{135A88BA-F1D6-485B-B2EC-4CC6CF2AB1D5}.Release|x64.ActiveCfg = Release|x64
+		{135A88BA-F1D6-485B-B2EC-4CC6CF2AB1D5}.Release|x64.Build.0 = Release|x64
+		{371B9FA9-4C90-4AC6-A123-ACED756D6C77}.Debug|x64.ActiveCfg = Debug|x64
+		{371B9FA9-4C90-4AC6-A123-ACED756D6C77}.Debug|x64.Build.0 = Debug|x64
+		{371B9FA9-4C90-4AC6-A123-ACED756D6C77}.Profile|x64.ActiveCfg = Profile|x64
+		{371B9FA9-4C90-4AC6-A123-ACED756D6C77}.Profile|x64.Build.0 = Profile|x64
+		{371B9FA9-4C90-4AC6-A123-ACED756D6C77}.Release|x64.ActiveCfg = Release|x64
+		{371B9FA9-4C90-4AC6-A123-ACED756D6C77}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {96F64BD6-05BD-4949-8191-E2EA7A1EF4D1}
+	EndGlobalSection
+EndGlobal
